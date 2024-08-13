@@ -1,0 +1,68 @@
+/* ShoppingCart.css */
+
+/* Adjust card image height */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .card-img-top {
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 300px;
+    }
+}
+
+/* Center the cart button content vertically */
+.btn-outline-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adjust the size of the cart icon */
+.btn-outline-secondary i {
+    font-size: 1.25rem;
+}
+
+/* Badge position adjustments */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.5em 0.75em;
+}
+
+/* Styling the dropdown menu */
+.dropdown-menu {
+    min-width: 10rem;
+}
+
+/* Override Bootstrap's default button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Custom hover effect for product cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Section header styling */
+.bg-dark h1 {
+    font-size: 2.5rem;
+}
+
+.bg-dark p {
+    font-size: 1.25rem;
+}
